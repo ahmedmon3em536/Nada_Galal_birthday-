@@ -208,8 +208,9 @@
         <button class="control-btn" id="music-btn" onclick="toggleMusic()">🎵 Play Music</button>
     </div>
 
+    <!-- Background Audio using a reliable secure streaming source -->
     <audio id="bg-music" loop>
-        <source src="https://cdns.iconscout.com/audio/preview/mp3/happy-birthday-to-you-music-box-preview-597.mp3" type="audio/mpeg">
+        <source src="https://actions.google.com/sounds/v1/ambiences/birthday_party.ogg" type="audio/ogg">
     </audio>
 
     <canvas id="confetti-canvas"></canvas>
@@ -276,14 +277,25 @@
         <div class="scene" id="scene-3">
             <div class="letter-box">
                 <div class="letter-content" id="letter-text">
-Look, this is probably the most extra birthday message in history 😂❤️, but I wanted to do something a little different for you that hasn't been done before 🤯.
-First of all, happy birthday again, Nada 🎉🎂❤️
-Honestly, I don't know what I'm supposed to say in times like this, and this is the first time I've ever been in a situation like this, but I wanted to tell you something: even though the time I've spent getting to know you has been short, I've genuinely grown to care for you because of who you are, and my admiration for you wasn't just because of one random thing like anyone else, but because of you yourself ❤️.
-And in the end, the choice is yours of course, and I will respect your decision no matter what. As for your studies, I'm sure I'll never be an obstacle in your path, and besides, people don't study 24/7, there's always some free time 🙃.
-I won't lie to you, I'm definitely waiting for the response I'm wishing for 🥺❤️🫀.
-And finally, I'll let you enjoy your birthday in a new year that I hope you'll be right there with me in 🥺🌚🌹.
-Happy birthday again!!! 💗💗💗
-- Ahmed Moneim ✨
+Okay, this is probably the most extra birthday message in history 😂❤️, but I really wanted to do something a little different for you, something you might not have experienced before. 🤯💗
+
+First of all, happy birthday once again, Nada! 🎉🎂❤️
+
+By the way, I actually started writing this message a long time before your birthday, and I changed so many things to make it turn out this way. I had been planning the gift and the website for quite a while, too, but I just couldn’t figure out how to give them to you. When I found out that you didn’t want anything to distract you from your studies, I decided to cancel the gift because I never wanted you to feel pressured or feel like you had to accept something you weren’t comfortable with. ❤️
+
+Honestly, I’m not really sure what I’m supposed to say in moments like this. I’ve never been in a situation like this before, but there’s something I’d like to tell you. Even though we haven’t known each other for very long, you’ve become someone special to me. I feel comfortable around you, and there are things about your personality that have made me want to get to know you better. ❤️✨
+
+I’m not even sure if I’m expressing myself the right way 😂, but I wanted to be honest with you while making sure you don’t feel any pressure or feel that you owe me a response.
+
+As for your studies, I completely understand that this is an important year for you and that you want to focus on it, and I respect that. I know studying takes time and concentration, but everyone needs a little time to relax now and then, too 😂🙃. So, if you’d like us to talk and get to know each other as friends or classmates—or whatever you feel most comfortable calling it—from time to time until you finish this school year successfully, God willing, I’d be perfectly fine with that. Of course, everything is entirely up to you, and I want you to feel comfortable with whatever you choose. ❤️
+
+In the end, I wish you a new year of life filled with happiness, success, and beautiful moments. I hope you achieve everything you dream of and always have reasons to smile. 🥹💗
+
+And who knows? Maybe this new year will bring some beautiful memories and little moments that give us the chance to get to know each other a little better. 🌚❤️
+
+Happiest birthday once again!!! 🎂💗🎉
+
+— Ahmed Monem ✨
                 </div>
             </div>
             <button class="sketch-btn" onclick="restartExperience()" style="background: #ff7675; color: white;">🔄 Start Over</button>
@@ -381,23 +393,45 @@ Happy birthday again!!! 💗💗💗
         }
 
         let isArabic = false;
-        const textEn = `Look, this is probably the most extra birthday message in history 😂❤️, but I wanted to do something a little different for you that hasn't been done before 🤯.
-First of all, happy birthday again, Nada 🎉🎂❤️
-Honestly, I don't know what I'm supposed to say in times like this, and this is the first time I've ever been in a situation like this, but I wanted to tell you something: even though the time I've spent getting to know you has been short, I've genuinely grown to care for you because of who you are, and my admiration for you wasn't just because of one random thing like anyone else, but because of you yourself ❤️.
-And in the end, the choice is yours of course, and I will respect your decision no matter what. As for your studies, I'm sure I'll never be an obstacle in your path, and besides, people don't study 24/7, there's always some free time 🙃.
-I won't lie to you, I'm definitely waiting for the response I'm wishing for 🥺❤️🫀.
-And finally, I'll let you enjoy your birthday in a new year that I hope you'll be right there with me in 🥺🌚🌹.
-Happy birthday again!!! 💗💗💗
-- Ahmed Moneim ✨`;
+        const textEn = `Okay, this is probably the most extra birthday message in history 😂❤️, but I really wanted to do something a little different for you, something you might not have experienced before. 🤯💗
 
-        const textAr = `بصي غالبا دي أكتر رسالة عيد ميلاد أوفر في التاريخ 😂❤️ بس انا كنت حابب أعملك حاجه مختلفة شوية ومتعملتش قبل كده 🤯
-في الأول كل سنة و أنت طيبه تاني يا ندى 🎉🎂❤️
-بصراحه انا مش عارف المفروض أقول أيه في الأوقات ألي زي كده ودي أول مرة أتحط في موقف زي ده بس أنا حابب أقولك على حاجه رغم أن الفترة ألي أتعاملت معاكي فيها كانت قصيرة إلا أني حبيتك بجد علشانك أنت و أعجابي بيكي مكنش لمجرد أي حاجه فيكي زي أي حد لكن علشانك أنت ❤️
-وفي الأخر القرار ليكي طبعا و أنا كده كده هحترم قرارك أيا كان و بلنسبة إلى الدراسة فا انا متئكد أني عمري ما هكون عقبة في طريق دراستك وكده كده الوحد مش طول الوقت بيذاكر أكيد فيه وقت فاضي 🙃
-مش هكدب عليكي أنا أكيد مستني الرد ألي نفسي فيه🥺❤️🫀
-وفي الأخر أسيبك تستمتعي بعيد ميلادك في سنة جديدة أتمنى أنك تكوني معايا فيها 🥺🌚🌹
-عيد ميلاد سعيد تاني!!!💗💗💗
-- أحمد منعم ✨`;
+First of all, happy birthday once again, Nada! 🎉🎂❤️
+
+By the way, I actually started writing this message a long time before your birthday, and I changed so many things to make it turn out this way. I had been planning the gift and the website for quite a while, too, but I just couldn’t figure out how to give them to you. When I found out that you didn’t want anything to distract you from your studies, I decided to cancel the gift because I never wanted you to feel pressured or feel like you had to accept something you weren’t comfortable with. ❤️
+
+Honestly, I’m not really sure what I’m supposed to say in moments like this. I’ve never been in a situation like this before, but there’s something I’d like to tell you. Even though we haven’t known each other for very long, you’ve become someone special to me. I feel comfortable around you, and there are things about your personality that have made me want to get to know you better. ❤️✨
+
+I’m not even sure if I’m expressing myself the right way 😂, but I wanted to be honest with you while making sure you don’t feel any pressure or feel that you owe me a response.
+
+As for your studies, I completely understand that this is an important year for you and that you want to focus on it, and I respect that. I know studying takes time and concentration, but everyone needs a little time to relax now and then, too 😂🙃. So, if you’d like us to talk and get to know each other as friends or classmates—or whatever you feel most comfortable calling it—from time to time until you finish this school year successfully, God willing, I’d be perfectly fine with that. Of course, everything is entirely up to you, and I want you to feel comfortable with whatever you choose. ❤️
+
+In the end, I wish you a new year of life filled with happiness, success, and beautiful moments. I hope you achieve everything you dream of and always have reasons to smile. 🥹💗
+
+And who knows? Maybe this new year will bring some beautiful memories and little moments that give us the chance to get to know each other a little better. 🌚❤️
+
+Happiest birthday once again!!! 🎂💗🎉
+
+— Ahmed Monem ✨`;
+
+        const textAr = `بصي، غالبًا دي أكتر رسالة عيد ميلاد أوفر في التاريخ 😂❤️، بس أنا كنت حابب أعملك حاجة مختلفة شوية ومتعملتش قبل كده 🤯💗
+
+في الأول، كل سنة وإنتِ طيبة تاني يا ندى 🎉🎂❤️
+
+على فكرة، الرسالة دي كنت كاتبها من فترة كبيرة قبل عيد ميلادك، وغيرت فيها حاجات كتير قوي علشان تطلع بلشكل ده وكنت مجهز فكرة الهدية والموقع من بدري، بس مكنتش عارف أقدمهملك إزاي، ولما عرفت إنك مش حابة تدخلي في أي حاجة تشغلك عن دراستك، قررت ألغي موضوع الهدية عشان مش عايزك تحسي بأي ضغط أو إنك مضطرة تقبلي حاجة إنتِ مش مرتاحة ليها ❤️
+
+بصراحة، أنا مش عارف المفروض أقول إيه في الأوقات اللي زي دي، ودي أول مرة أتحط في موقف زي ده، بس حابب أقولك إن رغم إن الفترة اللي اتعاملت معاكي فيها كانت قصيرة، إلا إنك بقيتي شخص مميز بالنسبالي، وإني ارتحتلك وعجبني فيكي حاجات خلتني أحب أعرفك أكتر ❤️✨
+
+ومش عارف إذا كنت بعرف أوصل اللي جوايا صح ولا لأ 😂، بس حبيت أكون صريح معاكي، وفي نفس الوقت مش عايزك تحسي بأي ضغط أو إنك مطالبة بأي رد.
+
+وبالنسبة للدراسة، فأنا مقدّر طبعًا إن دي سنة مهمة بالنسبالك، وإنك عايزة تركزي فيها، وده حقك طبعًا. وعارف إن الدراسة محتاجة وقت وتركيز، وطبعًا كل واحد بيحتاج وقت يفصل فيه شوية 😂🙃، فلو حبيتي نتكلم كصحاب أو زمايل، أو زي ما إنتِ تحبي تسميها، من وقت للتاني لغاية ما تخلصي السنة دي على خير بإذن الله، فأنا معنديش أي مانع، وكل حاجة طبعًا براحتك ❤️
+
+وفي الآخر، أنا بتمنالك سنة جديدة مليانة نجاح وفرحة، وتحققي فيها كل اللي نفسك فيه، وتفضلي دايمًا مبسوطة 🥹💗
+
+ومين عارف، يمكن السنة الجديدة يكون فيها ذكريات حلوة ومواقف ألطف نتعرف فيها على بعض أكتر 🌚❤️
+
+عيد ميلاد سعيد تانييي!!! 🎂💗🎉
+
+— أحمد منعم ✨`;
 
         function toggleLanguage() {
             const letterEl = document.getElementById('letter-text');
